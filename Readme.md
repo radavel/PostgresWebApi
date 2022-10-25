@@ -42,6 +42,6 @@ You can read more about what is Swagger here https://swagger.io, but simply it's
 
 Open the following URL on your browser:
 https://localhost:7253/swagger
-You will see a list with all the endpoints grouped by entity.
+You will see a list with all the endpoints grouped by entity ready to be used.
 
 >**Note**: You can change the project ports if you want at any time. Just need to update your *lauchSettings.json* inside *Properties* folder. 
