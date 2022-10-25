@@ -3,12 +3,14 @@
 ## Pre-requisites
 ### Set up Postges SQL
 1.- Install Postgres SQL in your env https://www.postgresql.org/download/
+
 2.- Install a Postgres SQL DB Manager https://www.pgadmin.org/download/
 
 ### Install dotnet on your CLI
 
 - Install <code>dotnet</code> command:
 https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net60
+
 - Install <code>dotnet ef</code> command:
 https://learn.microsoft.com/en-us/ef/core/cli/dotnet
 
@@ -34,6 +36,7 @@ In order to create your db and tables we need to run the migrations. Run the com
 
 ### Run project
 If you are using **Visual Studio** as your IDE just click over play button on top, if not, you can run the it with the following command:
+
 <code>dotnet run</code>
 
 ### Use Swagger
@@ -45,4 +48,4 @@ Open the following URL on your browser:
 https://localhost:7253/swagger
 You will see a list with all the endpoints grouped by entity ready to be used.
 
->**Note**: You can change the project ports if you want at any time. Just need to update your *lauchSettings.json* inside *Properties* folder. 
+>**Note**: You can change the project ports if you want at any time. Just need to update your *lauchSettings.json* file inside *Properties* folder. 
