@@ -35,7 +35,7 @@ In order to create your db and tables we need to run the migrations. Run the com
 <hr>
 
 ### Run project
-If you are using **Visual Studio** as your IDE just click over play button on top, if not, you can run the it with the following command:
+If you are using **Visual Studio** as your IDE just click over play button on top, if not, you can run it with the following command:
 
 <code>dotnet run</code>
 
