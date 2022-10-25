@@ -27,6 +27,7 @@ https://learn.microsoft.com/en-us/ef/core/cli/dotnet
 In order to create your db and tables we need to run the migrations. Run the commands below:
 
 <code>dotnet build</code>
+
 <code>dotnet ef database update</code>
 
 <hr>
