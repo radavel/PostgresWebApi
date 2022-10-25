@@ -35,3 +35,13 @@ In order to create your db and tables we need to run the migrations. Run the com
 If you are using **Visual Studio** as your IDE just click over play button on top, if not, you can run the it with the following command:
 <code>dotnet run</code>
 
+### Use Swagger
+You can read more about what is Swagger here https://swagger.io, but simply it's a way to test our endpoints from our WebApi.
+
+>**Important**: You need to have running the project.
+
+Open the following URL on your browser:
+https://localhost:7253/swagger
+You will see a list with all the endpoints grouped by entity.
+
+>**Note**: You can change the project ports if you want at any time. Just need to update your *lauchSettings.json* inside *Properties* folder. 
